@@ -7,7 +7,16 @@
 </head>
 <body>
     <form id="todoForm">
-        <input type="text" name="todoInput" id="todoInput">
+        <table>
+            <tr>
+                <td> <label for="todoInputTitle">Title</label> </td>
+                <td> <input type="text" name="todoInputTitle" id="todoInputTitle"><br> </td>
+            </tr> 
+            <tr>
+                <td> <label for="todoInputDesc">Description</label> </td>
+                <td> <input type="text" name="todoInputDesc" id="todoInputDesc"> </td>
+            </tr> 
+        </table>
         <button type="submit">Add Todo</button>
     </form>
     <table id="todoTable">
